@@ -1,5 +1,10 @@
 # Vifm tutorial
 
-Morten Håkestad 2023-01-16 05:46 - Monday
+Create mark.: [a-z][A-Z][0-9]
 
-Create mark:  
+Use mark....: '[a-z][A-Z][0-9]
+
+Example: Go to a directory you want to mark.<br>
+Type: md, now 'd is a mark for that directory.<br>
+
+

@@ -1,0 +1,11 @@
+Add user to a group:
+
+sudo usermod -a -G group_to_add username
+Example:
+sd usermod -a-G prg m
+
+  -a tells usermod to add a user to a group.
+  -G specifies the name of the group you want to add the user.
+---------------------------
+
+

@@ -34,9 +34,6 @@ git branch -M master
 git remote add origin https://github.com/mort1skoda/<repo.name>.git
 git push -u origin master
 
-# usefull git commands
-
-
 
 # use my aliases
 ag 'git'
@@ -56,6 +53,21 @@ alias gs='git status'
 alias gss='git status --short'
 alias gsv='git status --verbose'
 alias l='ls -la --color --group-directories-first && git branch'
+
+
+gpl
+gs  gss gsv
+gaa   ga <file.name>
+gc    
+gp
+grl
+grc
+
+
+branching:
+gb
+gco
+
 
 
 

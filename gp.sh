@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#echo '----****----****---- START-->  gitPushHomeDevHw.sh ----****----****----'
 git status
 git add --all
 git status
@@ -8,9 +7,8 @@ DATE=$(date +'%Y-%m-%d %H:%M:%S %aday')
 git commit -m "$DATE"
 git branch -M master
 git push -u origin master
-#echo '----****----****----- END--->  gitPushHomeDevHw.sh ----****----****----'
-exit
 
+exit
 
 
 #####-----    first time pull -----#####
@@ -30,11 +28,36 @@ NB! first you must create a empty repo online.
 
 echo "# test" >> README.md
 git init
-git add README.md
+#git add README.md
 git commit -m "first commit"
 git branch -M master
-git remote add origin https://github.com/mort1skoda/test.git
+git remote add origin https://github.com/mort1skoda/<repo.name>.git
 git push -u origin master
+
+# usefull git commands
+
+
+
+# use my aliases
+ag 'git'
+alias egc='vim ~/.gitconfig'
+alias egi='vim .gitignore'
+alias ga='git add'
+alias gaa='git add --all'
+alias gb='git branch'
+alias gc='git commit -m "$DATE"'
+alias gco='git checkout '
+alias gp='git push'
+alias gpl='git pull'
+alias gr='git remote -v'
+alias grc='git rm -r --cached '
+alias grl='git reflog '
+alias gs='git status'
+alias gss='git status --short'
+alias gsv='git status --verbose'
+alias l='ls -la --color --group-directories-first && git branch'
+
+
 
 
 
